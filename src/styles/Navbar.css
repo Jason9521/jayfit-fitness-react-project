@@ -1,0 +1,49 @@
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 0rem;
+    background-color: aqua;  
+    transition: height 0.3s;
+}
+
+.navbar-open {
+    height: 5rem;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.navbar a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+
+}
+
+.toggle-menu {
+    position: relative;
+    top: 3rem;
+    padding-right: 2rem;  
+    transition: 0.3s;  
+}
+
+.toggle-menu-clicked {
+    top: 6.2rem;
+}
+
+.toggle-menu:hover {
+    cursor: pointer;
+}
+
